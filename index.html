@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="maincontainer">
+
+        <div class="container">
+            <label for="age">Age</label>
+            <input type="number" id="age" max="120" min="2" >
+            <span>ages: 2- 120</span>
+
+        </div>
+
+        <div class="container">
+            <label for="height">Height</label>
+            <input type="number" id="height" placeholder="cm">
+
+        </div>
+
+
+        <div class="container">
+            <label for="weight">Weight</label>
+            <input type="number" id="weight" placeholder="kg">
+        </div>
+
+        <div class="gender">
+            <label>Gender</label>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female">
+        </div>
+
+        <div>
+            <button id="calculate">CALCULATE</button>
+            <button id="clear">CLEAR</button>
+        </div>
+
+        <div id="result">
+
+        </div>
+
+
+        <div class="table">
+            <table>
+               
+    
+                    <tr>
+                        <th>Category</th>
+                        <th>BMI range kg/m^2</th>
+                    </tr>
+    
+           
+    
+            
+                    <tr>
+                        <td>severe thinkness</td>
+                        <td> <span><</span> 16</td>
+                    </tr>
+                    <tr>
+                        <td>Moderate thickness</td>
+                        <td> 16-17</td>
+                    </tr>
+                    <tr>
+                        <td>Mild thickness</td>
+                        <td> 17-18.5</td>
+                    </tr>
+                    <tr>
+                        <td>Normal</td>
+                        <td> 18.5-25</td>
+                    </tr>
+                    <tr>
+                        <td>OverWeight</td>
+                        <td> 25-30</td>
+                    </tr>
+                    <tr>
+                        <td>Obese Class-1</td>
+                        <td> 30-35</td>
+                    </tr>
+                    <tr>
+                        <td>Obese Class-2</td>
+                        <td> 35-40</td>
+                    </tr>
+                    <tr>
+                        <td>Obese Class-3</td>
+                        <td><span>>45</span></td>
+                    </tr>
+          
+               
+            </table>
+        </div>
+    </div>
+
+    
+
+
+    
+</body>
+</html>
