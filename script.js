@@ -21,7 +21,7 @@ const calculateMass = () => {
     
 
 
-    let total = (weight + 9.81)/ (0.01*height) * (0.01 * height);
+    let total = weight / Math.pow(height, 2)
 
     result.innerHTML = total
 
